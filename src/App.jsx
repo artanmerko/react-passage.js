@@ -3,9 +3,9 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 
-const epi = import.meta.env.VITE_EPI;
-const appId = import.meta.env.VITE_APP_ID;
-const appKey = import.meta.env.VITE_APP_KEY;
+const epi = 2319918721;
+const appId = "lZ1yniU6yXlPJi8fRRmY7aBja3XviY7Q";
+const appKey = "fDswB@nM#Lq5@@ZrGnnyS2mgmcOYqcX0";
 
 function App() {
   const [clientToken, setClientToken] = useState('');
