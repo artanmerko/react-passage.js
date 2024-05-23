@@ -62,7 +62,7 @@ function App() {
           epi: epi,
         }),
       };
-      const getToken = await fetch('https://securelink-staging.valorpaytech.com:4430', options).then(function (response) {
+      const getToken = await fetch('https://securelink-staging.merchant-crm.com:4430', options).then(function (response) {
         return response.json();
       });
       if (getToken.clientToken) {
