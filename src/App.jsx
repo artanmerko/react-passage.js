@@ -413,8 +413,8 @@ function App() {
     <>
       <ToastContainer />
       <form onSubmit={handleSubmit} id='valor-checkout-form'>
-        <img src='./valorlogo.png' alt='valorlogo' />
-
+        <img src='./valorlogo.svg' alt='valorlogo' />
+        <br />
         <label>Email</label>
         <input type='email' name='email' placeholder='Email' value={formValues.email} onChange={handleEmailInputChange} onBlur={handleEmailBlur} required />
         {formValues.emailError && <div style={{ color: 'red' }}>{formValues.emailError}</div>}
